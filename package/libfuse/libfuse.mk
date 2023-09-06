@@ -5,8 +5,8 @@
 ################################################################################
 
 LIBFUSE_VERSION = 2.9.7
-LIBFUSE_SOURCE = fuse_$(LIBFUSE_VERSION).orig.tar.gz
-LIBFUSE_SITE = http://ftp.debian.org/debian/pool/main/f/fuse/
+LIBFUSE_SOURCE = fuse-$(LIBFUSE_VERSION).tar.gz
+LIBFUSE_SITE = http://sources.buildroot.net/libfuse/  #http://ftp.debian.org/debian/pool/main/f/fuse/
 LIBFUSE_LICENSE = GPLv2 LGPLv2.1
 LIBFUSE_LICENSE_FILES = COPYING COPYING.LIB
 LIBFUSE_INSTALL_STAGING = YES

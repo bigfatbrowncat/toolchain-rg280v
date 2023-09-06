@@ -4,9 +4,10 @@
 #
 ################################################################################
 
+#http://security.debian.cergy.eisti.fr/pool/updates/main/n/ncurses/ncurses_5.9%2B20140913.orig.tar.gz
 NCURSESW5_VERSION = 5.9+20140913
 NCURSESW5_SOURCE = ncurses_$(NCURSESW5_VERSION).orig.tar.gz
-NCURSESW5_SITE = http://deb.debian.org/debian/pool/main/n/ncurses
+NCURSESW5_SITE = http://security.debian.cergy.eisti.fr/pool/updates/main/n/ncurses/ #http://deb.debian.org/debian/pool/main/n/ncurses
 NCURSESW5_INSTALL_STAGING = YES
 NCURSESW5_DEPENDENCIES = host-ncurses
 HOST_NCURSESW5_DEPENDENCIES =

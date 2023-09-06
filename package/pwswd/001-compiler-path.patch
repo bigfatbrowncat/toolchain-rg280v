@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 7baf6fe..dbfea5d 100755
+--- a/Makefile
++++ b/Makefile
+@@ -7,7 +7,7 @@ include config-$(CONFIG).mk
+ 
+ TARGET = pwswd
+ 
+-CC = $(CROSS_COMPILE)gcc
++CC = /opt/gcw0-toolchain/usr/bin/$(CROSS_COMPILE)gcc
+ 
+ DEFAULT_MIXER ?= "\"PCM\""
+ 

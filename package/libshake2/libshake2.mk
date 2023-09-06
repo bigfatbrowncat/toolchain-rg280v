@@ -4,7 +4,12 @@
 #
 #############################################################
 LIBSHAKE2_VERSION = 0.3.1
-LIBSHAKE2_SITE = $(call github,zear,libshake,$(LIBSHAKE2_VERSION))
+#https://github.com/zear/libShake/archive/refs/tags/0.3.1.tar.gz
+
+LIBSHAKE2_SOURCE = $(LIBSHAKE2_VERSION).tar.gz
+LIBSHAKE2_SITE = https://github.com/zear/libShake/archive/refs/tags/
+
+#LIBSHAKE2_SITE = $(call github,zear,libshake,$(LIBSHAKE2_VERSION))
 LIBSHAKE2_LICENSE = MIT
 LIBSHAKE2_LICENSE_FILES = LICENSE.txt
 LIBSHAKE2_INSTALL_STAGING = YES

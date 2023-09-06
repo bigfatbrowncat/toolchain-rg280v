@@ -5,7 +5,7 @@
 ################################################################################
 
 WAYLAND_KMS_VERSION = master
-WAYLAND_KMS_SITE = $(call github,thayama,wayland-kms,$(WAYLAND_KMS_VERSION))
+WAYLAND_KMS_SITE = $(call github,renesas-rcar,wayland-kms,$(WAYLAND_KMS_VERSION))
 WAYLAND_KMS_SOURCE = wayland-kms-$(WAYLAND_KMS_VERSION).tar.gz
 WAYLAND_KMS_LICENSE = MIT
 WAYLAND_KMS_LICENSE_FILES = COPYING
